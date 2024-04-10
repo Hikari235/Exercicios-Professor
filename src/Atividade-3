@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        //1 criar uma string com meu nome
+        //2 imprima com a mensagem "Olá, meu nome é [nome]",
+        //utilize o scanner para declarar a variavel sobrenome
+        // imprima o nome completo
+        Scanner scanner = new Scanner(System.in); 
+
+        String Nome = "Pedro";
+        System.out.printf("Olá meu nome é %s \n", Nome);
+
+        System.out.println("Informe seu sobrenome: ");
+        String sobrenome = scanner.nextln();
+
+        System.out.println( Nome + " " + sobrenome);
+    }
+}

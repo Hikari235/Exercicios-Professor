@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        int largura = 55;
+        int Altura = 18;
+
+        double Area = largura * Altura;
+        double perimetro = 2*(altura + altura);
+
+        System.out.println("Area igual á: " + Area);
+        System.out.println("perimetro igual á: " + perimetro);
+
+    }
+}

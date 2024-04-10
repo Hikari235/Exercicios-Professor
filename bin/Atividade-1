@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        //1 - Declare e inicialize uma variável do tipo int chamada age com o valor 25. Em seguida, imprima uma mensagem
+
+        int age = 25;
+        System.out.println("I am " + age + " years old");
+      
+    }
+}
